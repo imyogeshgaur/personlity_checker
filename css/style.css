@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+body{
+    background-color: hsl(206, 44%, 77%);
+}
+#showResult{
+    background-color: #dfe6e9;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+}
+
+#showResult{
+    text-align: center;
+}
+
+.resultArea{
+    display: none;
+}
+
+.main-div{
+    display: block;
+    margin-top: 10rem;
+    margin-left: 10rem;
+}
+#submit{
+    background-color: hsl(147, 72%, 65%)!important;
+    border: none;
+    color: #fff;
+    display: block;
+    padding: 1rem 6rem;
+}
+#submit:focus{
+    border: none;
+    background-color: hsl(147, 54%, 71%)!important;
+    color:#000
+}
+
+#refresh{
+    background-color: hsl(4, 72%, 65%)!important;
+    border: none;
+    color: #fff;
+    display: block;
+    padding: 1rem 6rem;
+}
+#refresh:focus{
+    border: none;
+    background-color: hsl(0, 72%, 65%)!important;
+    color:#000
+}
+
+h1{
+    font-family: 'Potta One', cursive;
+    color:crimson;
+    text-align: center;
+}
+h5{
+    font-family: 'Potta One', cursive;
+    color:crimson;
+    text-align: center;
+}
